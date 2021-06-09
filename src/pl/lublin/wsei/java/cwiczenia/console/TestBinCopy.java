@@ -38,6 +38,7 @@ public class TestBinCopy {
         long endTime = System.nanoTime();
         long timeElapsed = endTime - startTime;
 
+        System.out.println("Czas wykonania bez buforowania : ");
         System.out.println("Czas wykonania w nanosekundach : "+timeElapsed);
         System.out.println("Czas wykonania w nanosekundach : "+timeElapsed / 1000000);
 
